@@ -26,7 +26,7 @@
             <div>{{note.uname}}</div>
           </div>
           <div class="btn">
-            <button>＋ 关注</button>
+            <button>＋ Follow</button>
           </div>
         </div>
         <div class="n_desc">
@@ -34,11 +34,11 @@
         </div>
         <div class="note_footer">
           <div class="adr">
-            发布于{{note.adress}}
+            Publish in{{note.adress}}
           </div>
           <div class="det">
             <span class="d_time">{{note.time}}</span>
-            <span class="d_cl">{{note.collect}}次收藏 {{note.like}}次赞</span>
+            <span class="d_cl">{{note.collect}} Collects {{note.like}} Likes</span>
           </div>
         </div>
       </div>
