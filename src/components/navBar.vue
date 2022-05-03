@@ -13,13 +13,13 @@
         <div class="nav_center">
           <ul class="nav_tab">
             <li class="tab-item">
-              <router-link to="/main1">关注</router-link>
+              <router-link to="/main1">Follow </router-link>
             </li>
             <li class="tab-item">
-              <router-link to="/main2">发现</router-link>
+              <router-link to="/main2">Discovery</router-link>
             </li>
             <li class="tab-item">
-              <router-link to="/main3">购买</router-link>
+              <router-link to="/main3">Shop</router-link>
             </li>
           </ul>
         </div>
@@ -30,7 +30,7 @@
       <div class="search">
           <div class="search-input">
             <img src="../assets/search.png" />
-            <input type="text" placeholder="搜索笔记、商品和用户" @focus="focus()">
+            <input type="text" placeholder="Search Products or Users" @focus="focus()">
           </div>
       </div>
     </div>
