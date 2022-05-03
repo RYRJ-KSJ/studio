@@ -4,11 +4,11 @@
           <span class="left">
               <img src="../assets/l-arrow.png" @click="hideCart">
           </span>
-          <span class="text">我的购物车</span>
+          <span class="text">My Cart</span>
       </div>
       <div class="cart_no_item" :class="hasPro?'isHidden':''">
           <img src="../assets/noitem.png" alt="">
-          <div class="ad">- 队长猜你喜欢 -</div>
+          <div class="ad">- You may like -</div>
       </div>
       <div class="cart-content" :class="hasPro?'':'isHidden'" ref="cartWrapper">
           <ul>
@@ -41,24 +41,24 @@
                         </div>
                     </div>
                     <div class="footer">
-                        <span>运费：</span>
-                        <span>免运费</span>
+                        <span>Shipping：</span>
+                        <span>Free Shipping:</span>
                     </div>
                 </div>
             </li>
           </ul>
-          <div class="ad">- 队长猜你喜欢 -</div>
+          <div class="ad">- You may like -</div>
       </div>
       <div class="cart-footer">
           <span class="selected">
               <!-- <span class="s-btn"> -->
               <button class="btn" :class="allChoosed?'isActive':''" @click="allChoosed=!allChoosed"></button>
               <!-- </span> -->
-              <div class="text">全选</div>
+              <div class="text">Select all</div>
           </span>
-          <span class="t-price">总计(含税):<span>￥{{totalPrice}}</span></span>
+          <span class="t-price">Total:<span>￥{{totalPrice}}</span></span>
           <span class="b-account">
-              <button @click="account">结算</button>
+              <button @click="account">Checkout</button>
           </span>
       </div>
       
@@ -122,7 +122,7 @@ export default {
       },
       deleteCartItem (p) {
           let { id, quantity } = p
-          MessageBox.confirm('确认要删除所选商品?').then(action => {
+          MessageBox.confirm('Delete?').then(action => {
               quantity = 0
               let newProduct = {
                   id: id,
@@ -145,7 +145,7 @@ export default {
       },
       account () {
           if (this.totalPrice!=0) {
-            MessageBox.alert('恭喜你结算成功,请等待收货！')
+            MessageBox.alert('Successfully paid！')
             this.$store.state.cart.added = []
         }
       },

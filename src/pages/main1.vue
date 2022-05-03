@@ -4,7 +4,7 @@
       <div class="content">
         <img src="../assets/noattent.png" alt="">
       </div>
-      <div class="title">大家都在关注</div>
+      <div class="title">Others following</div>
       <div class="attent-list">
         <ul>
           <li v-for="(a,index) in attentList" class="attent-item">
@@ -17,7 +17,7 @@
                 <span>{{a.desc}}</span>
               </div>
               <div class="a-btn">
-                <button>关注</button>
+                <button>Follow</button>
               </div>
             </div>
           </li>
@@ -34,64 +34,24 @@ export default {
       attentList: [
         {
           img: 'static/img/a1.png',
-          name: '小红叔',
-          desc: '官方账号，小红书男性频道'
+          name: 'xyz_999',
+          desc: 'Daily routine'
         },
         {
           img: 'static/img/a2.png',
-          name: '视频薯',
-          desc: '官方账号，发现热门视频'
+          name: 'xyz_888',
+          desc: 'Dresses lover'
         },
         {
           img: 'static/img/a3.png',
-          name: '娱乐薯',
-          desc: '官方账号，混迹娱乐圈前沿'
+          name: 'xyz_777',
+          desc: 'P style'
         },
         {
           img: 'static/img/a4.png',
-          name: '吃不饱同学',
-          desc: '零食种草机，美食奇趣玩法'
+          name: 'xyz_666',
+          desc: 'gen z'
         },
-        {
-          img: 'static/img/a1.png',
-          name: '小红叔',
-          desc: '官方账号，小红书男性频道'
-        },
-        {
-          img: 'static/img/a2.png',
-          name: '视频薯',
-          desc: '官方账号，发现热门视频'
-        },
-        {
-          img: 'static/img/a3.png',
-          name: '娱乐薯',
-          desc: '官方账号，混迹娱乐圈前沿'
-        },
-        {
-          img: 'static/img/a4.png',
-          name: '吃不饱同学',
-          desc: '零食种草机，美食奇趣玩法'
-        },
-        {
-          img: 'static/img/a1.png',
-          name: '小红叔',
-          desc: '官方账号，小红书男性频道'
-        },
-        {
-          img: 'static/img/a2.png',
-          name: '视频薯',
-          desc: '官方账号，发现热门视频'
-        },
-        {
-          img: 'static/img/a3.png',
-          name: '娱乐薯',
-          desc: '官方账号，混迹娱乐圈前沿'
-        },
-        {
-          img: 'static/img/a4.png',
-          name: '吃不饱同学',
-          desc: '零食种草机，美食奇趣玩法'
-        }
       ]
     }
   },
