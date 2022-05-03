@@ -8,17 +8,17 @@
                 </form>
             </div>
             <div class="search-cancel" @touchend="searchCancel()" @click="searchCancel()">
-                取消
+                Cancel
             </div>
         </div>
         <div class="hotkey">
             <div v-show="searchHistory">
-                <div class="his">历史记录</div>
+                <div class="his">History Search</div>
                 <div class="search-history">
                     <div class="search-history-item" v-for="item in searchHistory" @click="search(item)">{{item}}</div>
                 </div>
             </div>
-            <div class="hot">热门搜索</div>
+            <div class="hot">Trending Search</div>
             <div class="hot-content">
                 <ul>
                     <li v-for="item in hotList">
@@ -34,7 +34,7 @@ export default {
     data () {
         return {
             key: '',
-            hotList: ["指甲","阿玛尼501","小棕瓶","阿玛尼200","秋冬美甲","睡袋","瘦腿袜","雅诗兰黛130","阿玛尼503","sw","大闸蟹","厚木","月子餐","过漆靴","sensai"],
+            hotList: ["Dress","blue","beach","party","women","sleeping","denim","earing","medi","sw","sensai"],
             searchHistory: []
         }
     },

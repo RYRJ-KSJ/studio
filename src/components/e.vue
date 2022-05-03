@@ -13,13 +13,13 @@
         <div class="nav_center">
           <ul class="nav_tab">
             <li class="tab-item">
-              <router-link to="main1">关注</router-link>
+              <router-link to="main1">Follow</router-link>
             </li>
             <li class="tab-item">
-              <router-link to="main2">发现</router-link>
+              <router-link to="main2">Discovery</router-link>
             </li>
             <li class="tab-item">
-              <router-link to="main3">购买</router-link>
+              <router-link to="main3">Purchase</router-link>
             </li>
           </ul>
         </div>

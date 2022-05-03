@@ -13,8 +13,8 @@
               </div>
               <div class="detail">
                 <span class="d_price">
-                  <span class="big">￥{{item.newPrice}}</span>
-                  <span class="small">￥{{item.oldPrice}}</span>
+                  <span class="big">${{item.newPrice}}</span>
+                  <span class="small">${{item.oldPrice}}</span>
                 </span>
                 <span class="brand">
                   <img src="../assets/br1.png" alt="">
@@ -37,8 +37,8 @@
               </div>
               <div class="detail">
                 <span class="d_price">
-                  <span class="big">￥{{item.newPrice}}</span>
-                  <span class="small">￥{{item.oldPrice}}</span>
+                  <span class="big">${{item.newPrice}}</span>
+                  <span class="small">${{item.oldPrice}}</span>
                 </span>
                 <span class="brand">
                   <img src="../assets/br1.png" alt="">

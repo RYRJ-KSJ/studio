@@ -10,12 +10,6 @@
           <swiper-slide class="swiper-item">
             <img src="../assets/b2.jpg" alt="">
           </swiper-slide>
-          <swiper-slide class="swiper-item">
-            <img src="../assets/b3.jpg" alt="">
-          </swiper-slide>
-          <swiper-slide class="swiper-item">
-            <img src="../assets/b4.jpg" alt="">
-          </swiper-slide>
           <div class="swiper-pagination" slot="pagination"></div>
         </swiper>
       </div>
@@ -25,10 +19,10 @@
       <div class="b_activity">
         <div class="act_header">
           <span class="a-left">
-            <h3>限时购</h3>
+            <h3>Time Limited</h3>
           </span>
           <span class="a-right">
-            全网低价 一贵就赔
+            Lowest Price
             <div class="a-icon">
               <div class="r-arrow"></div>
             </div>
@@ -38,22 +32,22 @@
           <div class="act-item">
             <img src="../assets/1.png" alt="">
             <div class="price">
-              <div class="new-price">81元</div>
-              <div class="old-price">104元</div>
+              <div class="new-price">$81</div>
+              <div class="old-price">$104</div>
             </div>
           </div>
           <div class="act-item">
             <img src="../assets/2.png" alt="">
             <div class="price">
-              <div class="new-price">118元</div>
-              <div class="old-price">175元</div>
+              <div class="new-price">$118</div>
+              <div class="old-price">$175</div>
             </div>
           </div>
           <div class="act-item">
             <img src="../assets/3.png" alt="">
             <div class="price">
-              <div class="new-price">99元</div>
-              <div class="old-price">128元</div>
+              <div class="new-price">$99</div>
+              <div class="old-price">$128</div>
             </div>
           </div>
         </div>
@@ -61,8 +55,8 @@
       <div class="b_actmore">
         <div class="a-hot">
           <span class="a-desc">
-            <h3>热卖榜</h3>
-            每天更新 热卖排行
+            <h3>Trending</h3>
+            Update daily
           </span>
           <span class="a-img">
             <img src="../assets/4.png" alt="">
@@ -70,8 +64,8 @@
         </div>
         <div class="a-ticket">
           <span class="a-desc">
-            <h3>领券中心</h3>
-            为您搜索全站福利
+            <h3>Promotions</h3>
+            Search padding
           </span>
           <span class="a-img">
             <img src="../assets/5.png" alt="">

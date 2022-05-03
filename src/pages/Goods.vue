@@ -25,20 +25,20 @@
                     <div class="t_header">
                         <h3>{{Goods.title}}</h3>
                         <span>
-                            来自  <a>{{Goods.brandName}}</a>
+                            From  <a>{{Goods.brandName}}</a>
                         </span>
                     </div>
                     <div class="t_price">
-                        <span class="big">￥{{Goods.newPrice}}</span>
-                        <span class="small">专柜价：￥{{Goods.oldPrice}}</span>
+                        <span class="big">${{Goods.newPrice}}</span>
+                        <span class="small">Price：${{Goods.oldPrice}}</span>
                     </div>
                 </div>
                 <div class="promise">
-                    <mt-cell title="该商品小红书承诺一贵就赔" is-link>
-                        <img slot="icon" src="../assets/g1.png" alt="" width="75px" height="25px">
+                    <mt-cell title="Quality Assured" is-link>
+                
                     </mt-cell>
-                    <mt-cell title="该商品小红书承诺七天保价" is-link>
-                        <img slot="icon" src="../assets/g2.png" alt="" width="75px" height="25px">
+                    <mt-cell title="Free Return" is-link>
+                    
                     </mt-cell>
                     <mt-cell :title="choosedTitle" is-link @click.native="popupVisible=true"></mt-cell>
                 </div>
@@ -53,27 +53,27 @@
                             <div class="img">
                                 <img src="../assets/s1.png" alt="">
                             </div>
-                            <div class="text">店铺</div>
+                            <div class="text">Shops</div>
                         </span>
                         <span class="icon_item-cart" @click="showCart">
                             <div class="buyNum" v-show="hasGoods">{{quantity}}</div>
                             <div class="img">
                                 <img src="../assets/s2.png" alt="">
                             </div>
-                            <div class="text">购物车</div>
+                            <div class="text">Shopping Cart</div>
                         </span>
                         <span class="icon_item">
                             <div class="img">
                                 <img src="../assets/s3.png" alt="">
                             </div>
-                            <div class="text">心愿单</div>
+                            <div class="text">List</div>
                         </span>
                     </div>
                     <div class="shop">
-                        <button @click.stop.prevent="addTo(Goods)">加入购物车</button>
+                        <button @click.stop.prevent="addTo(Goods)">Add to cart</button>
                     </div>
                     <div class="apply">
-                        <button @click.stop.prevent="addTo(Goods)">立即购买</button>
+                        <button @click.stop.prevent="addTo(Goods)">Purchase</button>
                     </div>
                 </div>
             </div>
@@ -93,7 +93,7 @@
                     </div>
                     <div class="cg_content">
                         <div class="opt-item" v-show="color">
-                            <div class="text">颜色：</div>
+                            <div class="text">Color：</div>
                             <div class="options">
                                 <ul>
                                     <li v-for="item in Goods.color" @click="selectedColor(item)">
@@ -103,7 +103,7 @@
                             </div>
                         </div>
                         <div class="opt-item" v-show="size">
-                            <div class="text">尺寸：</div>
+                            <div class="text">Size：</div>
                             <div class="options">
                                 <ul>
                                     <li v-for="item in Goods.size" @click="selectedSize(item)">
@@ -113,7 +113,7 @@
                             </div>
                         </div>
                         <div class="opt-item" v-show="weight">
-                            <div class="text">重量：</div>
+                            <div class="text">Weight：</div>
                             <div class="options">
                                 <ul>
                                     <li v-for="item in Goods.weight" @click="selectedWeight(item)">
@@ -123,7 +123,7 @@
                             </div>
                         </div>
                         <div class="g-quantity">
-                            <span class="text">数量：</span>
+                            <span class="text">Quantity：</span>
                             <span class="action">
                                 <span class="reduce" :class="quantity>1?'isActive':''" @click="reduce">－</span>
                                 <span class="number">{{quantity}}</span>
@@ -132,7 +132,7 @@
                         </div>
                     </div>
                     <div class="cg_footer">
-                        <button @click.stop.prevent="addtocart(Goods)">加入购物车</button>
+                        <button @click.stop.prevent="addtocart(Goods)">Add to cart</button>
                     </div>
                 </div>
             </mt-popup>
@@ -168,7 +168,7 @@ export default {
             return this.choosedColor + ' ' + this.choosedSize + ' ' + this.choosedWeight
         },
         choosedTitle () {
-            return '已选：' + this.choosedItems
+            return 'Selected：' + this.choosedItems
         },
         color () {      //判断是否显示颜色选项
             if( ""||this.$store.state.goods.choosedgoods.color[0] == undefined)

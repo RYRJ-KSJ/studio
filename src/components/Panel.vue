@@ -2,7 +2,7 @@
     <div class="panel">
         <div class="header">
             <img src="../assets/wm.png" alt="watermelon">
-            <div>用户名 {{user.name}}</div>
+            <div>Username {{user.name}}</div>
         </div>
         <div class="content">
             <div class="con_item">
@@ -10,7 +10,7 @@
                     <img src="../assets/icon1.png" alt="look">
                 </div>
                 <div class="text">
-                    <span>我的关注</span>
+                    <span>Following</span>
                 </div>
             </div>
             <div class="con_item">
@@ -18,7 +18,7 @@
                     <img src="../assets/icon2.png" alt="">
                 </div>
                 <div class="text">
-                    <span>我的收藏</span>
+                    <span>Likes</span>
                 </div>
             </div>
             <div class="con_item">
@@ -26,7 +26,7 @@
                     <img src="../assets/icon3.png" alt="">
                 </div>
                 <div class="text">
-                    <span>消息</span>
+                    <span>Message</span>
                 </div>
             </div>
             <div class="con_item">
@@ -34,7 +34,7 @@
                     <img src="../assets/icon4.png" alt="">
                 </div>
                 <div class="text">
-                    <span>购物车</span>
+                    <span>Shopping cart</span>
                 </div>
             </div>
             <div class="con_item">
@@ -42,7 +42,7 @@
                     <img src="../assets/icon5.png" alt="">
                 </div>
                 <div class="text">
-                    <span>订单</span>
+                    <span>Orders</span>
                 </div>
             </div>
             <div class="con_item">
@@ -50,7 +50,7 @@
                     <img src="../assets/icon6.png" alt="">
                 </div>
                 <div class="text">
-                    <span>薯券</span>
+                    <span>Promotions</span>
                 </div>
             </div>
             <div class="con_item">
@@ -58,7 +58,7 @@
                     <img src="../assets/icon7.png" alt="">
                 </div>
                 <div class="text">
-                    <span>心愿单</span>
+                    <span>Lists</span>
                 </div>
             </div>
             <div class="con_item">
@@ -66,7 +66,7 @@
                     <img src="../assets/icon8.png" alt="">
                 </div>
                 <div class="text">
-                    <span>黑卡会员</span>
+                    <span>VIP</span>
                 </div>
             </div>
             <div class="con_item">
@@ -74,7 +74,7 @@
                     <img src="../assets/icon9.png" alt="">
                 </div>
                 <div class="text">
-                    <span>设置</span>
+                    <span>Settings</span>
                 </div>
             </div>
         </div>
