@@ -85,7 +85,7 @@
                         </div>
                         <div class="t-text">
                             <h4>{{title}}</h4>
-                            <span>￥{{Goods.newPrice}}</span>
+                            <span>${{Goods.newPrice}}</span>
                         </div>
                         <div class="t-icon">
                             <img src="../assets/close.png" @click="popupVisible=false">

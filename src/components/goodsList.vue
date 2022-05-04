@@ -16,7 +16,9 @@
                   <span class="big">${{item.newPrice}}</span>
                   <span class="small">${{item.oldPrice}}</span>
                 </span>
-                
+                <span class="brand">
+                  <img src="../assets/br1.png" alt="">
+                </span>
               </div>
             </div>
           </li>
@@ -38,7 +40,9 @@
                   <span class="big">${{item.newPrice}}</span>
                   <span class="small">${{item.oldPrice}}</span>
                 </span>
-                
+                <span class="brand">
+                  <img src="../assets/br1.png" alt="">
+                </span>
               </div>
             </div>
           </li>
