@@ -16,7 +16,7 @@
               <router-link to="/main1">Follow </router-link>
             </li>
             <li class="tab-item">
-              <router-link to="/main2">Discovery</router-link>
+              <router-link to="/main2">Discover</router-link>
             </li>
             <li class="tab-item">
               <router-link to="/main3">Shop</router-link>
